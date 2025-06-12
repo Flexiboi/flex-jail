@@ -1257,55 +1257,6 @@ Config.CurrupNPCDoors = {
     }
 }
 
--- SOLOS-XTC
-Config.XTC = {}
-Config.XTC.framework = 'QBCore' -- ESX or QBCore
-Config.XTC.target = 'ox' -- qb or ox
-Config.XTC.ped = {
-    coords = vector4(1775.14, 2563.98, 44.59, 128), --subtract 1 from original Z value or ped will float in air
-    model = 's_m_y_prisoner_01',
-    length = 1.0,
-    width = 1.0,
-    size = vector3(1.0, 1.0, 3.5), --oxtarget only
-    heading = 0,
-    minZ = 44.0,
-    maxZ = 48.0,
-    debugPoly = Config.Debug,
-}
-Config.XTC.tradeitem = "painkillers"
-Config.XTC.bagitem = "empty_weed_bag" --"empty_weed_bag" = QBCore, "empty_bag" = ESX
-Config.XTC.oxide = 'aluminumoxide'
-Config.XTC.toiletcraft = {
-    coords = vec3(1627.0869140625,2466.2805175781,44.850592803955),
-    length = 1.1,
-    width = 1.1,
-    size = vector3(0.75, 0.75, 2.0), --oxtarget only
-    heading = 146.0,
-    minZ = 44.2,
-    maxZ = 45.39,
-    debugPoly = Config.Debug,
-    time = 15000, -- time it takes in milliseconds to craft
-}
-Config.XTC.weedbag = {
-    coords = vector3(1718.9158935547, 2588.0451660156, 45.218792724609),
-    radius = 0.4,
-    size = vector3(0.4, 0.4, 2.0), --oxtarget only
-    heading = 0.0,
-    debugPoly = Config.Debug,
-    time = 30000, -- time it takes in milliseconds to collect
-}
-Config.XTC.pills = {
-    coords = vector3(1757.19, 2570.47, 45.00),
-    length = 0.5,
-    width = 1.2,
-    size = vector3(1.2, 1.2, 0.5), --oxtarget only
-    heading = 0.0,
-    minZ = 44.73,
-    maxZ = 46.73,
-    debugPoly = Config.Debug,
-    time = 30000, -- time it takes in milliseconds to collect
-}
-
 Config.Armory = {
     label = "DOC Armory",
     slots = 30,
